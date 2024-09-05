@@ -1,5 +1,6 @@
 package com.silva.flood.prediction.utils;
 
+import com.silva.flood.prediction.enums.ResultEnums;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
