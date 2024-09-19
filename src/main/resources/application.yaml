@@ -1,0 +1,18 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: flood-prediction
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.55.186.39:3306/flood_prediction?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&allowMultiQueries=true
+    username: root
+    password: '@s47873704S'
+
+logging:
+  level:
+    com.silva.flood.prediction: info \
+
+
+
